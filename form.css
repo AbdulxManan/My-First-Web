@@ -1,0 +1,168 @@
+body{
+    background-color:  #fafafa !important;
+}
+
+.navbar-brand{
+    width: 56px;
+    height: auto;
+    border-radius: 15px;
+}
+
+header {
+    background: #d2eafa99;
+}
+
+.navbar-brand-h1{
+    color: #DB0E50;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.form-section{
+    padding-left: 173px;
+    padding-right: 173px;
+}
+
+.form-section .top h1{
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.form-section .top h1 span{
+    font-weight: 500;
+    color: #DB0E50;
+}
+
+.form-section .top p{
+    font-size: 13px;
+    
+}
+
+.form-group >h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #118AD4;
+}
+
+.form-group h2 span{
+    font-size: 20px;
+    color: #DB0E50;
+}
+
+.form-check-input{
+    width: 13px !important;
+    height: 13px !important;
+}
+
+button{
+    background-color: #DB0E50;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #DB0E50;
+    transition: 0.3s;
+    padding: 10px;
+}
+button:hover{
+    background-color: white;
+    color: #DB0E50;
+}
+
+
+.form-section form .form-control {
+    background-color: #eff7fc;
+    border-radius: 0;
+    border: none;
+    padding: 12px 15px;
+}
+
+.form-section form label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color: #8a8686;
+    line-height: 20px;
+}
+
+footer .container {
+    border-top: 1px solid #9BD3F7;
+    border-bottom: 1px solid #9BD3F7;
+
+}
+
+footer .container-1 {
+    padding: 0px 180px;
+}
+
+footer .navbar-brand-h1 {
+    font-size: 20px;
+    color: #DB0E50;
+
+}
+
+footer .navbar-brand {
+    margin-right: 0px !important;
+}
+
+footer .icon {
+    border: 1px solid #DB0E50;
+    transition: 0.3s;
+    padding: 5px 9px;
+    background-color: #fafafa;
+}
+
+footer .icon:hover {
+    background-color: #DB0E50;
+}
+
+footer .icon-facebook {
+    padding: 5px 11px;
+}
+
+footer .icon-2 {
+    color: #DB0E50;
+}
+
+footer .icon:hover .icon-2 {
+    color: white;
+}
+
+footer .text-black {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer h6 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.form-section .container {
+    background-color: #fff !important;
+}
+
+@media (max-width:768px){
+    .navbar-brand{
+        width: 35px;
+        height: auto;
+    }
+
+    .navbar-brand-h1{
+        font-size: 14px;
+    }
+
+    .form-section{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    footer .container-1 {
+        padding: 0px 0px;
+    }
+
+    footer .navbar-brand-h1 {
+        font-size: 16px;
+        
+    }
+}

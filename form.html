@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./form.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-od5Aoguf3x6CdQJjbWceZuV+jno+/6DGuPGeLY2w1f27l3pCNbQxbk3KhM6Cr/cw+OmhtqSHYIM5r1jzRC5rbw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://kit.fontawesome.com/909dcb0ad6.js" crossorigin="anonymous"></script>
+
+    <title>form</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-light bg-transparent">
+            <div class="container-fluid text-center  py-1">
+                <div class="d-flex m-auto align-items-center">
+                    <img class="navbar-brand img-fluid" src="./images/favicon.png" alt="logo">
+                    <a href="./index.html" class="navbar-brand-h1 ms-1 mb-1  ">Czech Virtual Agent</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="form-section py-5">
+        <div class="container py-4 py-md-5 ">
+            <div class="top text-center my-1 py-3">
+                <h1>Send your <span>Request</span></h1>
+                <p class="w-75 m-auto text-center d-none d-md-block">After you fill out this order request, we'll
+                    contact you within 24 hours to go over the details and estimated delivery time. If you have any
+                    additional questions, please reach out to us at czechvirtualagent@gmail.com
+                    <br>
+                    We're looking forward to helping you!
+                </p>
+                <p class="d-block d-md-none">We'll contact you within 24 hours </p>
+            </div>
+            <div class="row w-75 m-auto">
+                <div class="col-md-12 p-0 p-md-3">
+                    <form>
+
+                        <div class="row">
+                            <div class="col-md-6 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>Full Name <span>*</span></h2>
+
+                                    <input required="" type="text" name="name" class="form-control">
+
+                                </div>
+                            </div>
+                            <div class="col-md-6 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>Phone Number <span>*</span></h2>
+
+                                    <input required="" type="text" name="phonenumber" class="form-control">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>Email <span>*</span></h2>
+
+                                    <input type="text" name="email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>What is your task? <span>*</span></h2>
+
+                                    <select required="" name="task" class="form-control">
+                                        <option value="">Select option</option>
+                                        <option value="Just a call">Just a call</option>
+                                        <option value="Search for it (Research a topic)">Search for it (Research a
+                                            topic)</option>
+                                        <option value="Arrange it (Coordinate events, workshops, holidays)">Arrange it
+                                            (Coordinate events, workshops, holidays)</option>
+                                        <option value="Part-time assistant (Discuss longer-term options)">Part-time
+                                            assistant (Discuss longer-term options)</option>
+                                        <option value="Something else">Something else</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>Do you need an additional language? All our agents
+                                        are fluent in English and Czech.</h2>
+                                    <input type="text" name="language" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>Could you describe your task and goal in detail? How can we help you?
+                                        <span>*</span>
+                                    </h2>
+
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>For calls and appointments
+
+                                    </h2>
+                                    <label class="my-2" for="">Do you have a set day and time we should make an
+                                        appointment for you? If you have more time availabilities, please write them in
+                                        the
+                                        section above.</label>
+                                    <input type="text" name="datetime" class="form-control" fdprocessedid="gswvj">
+
+
+                                </div>
+                            </div>
+                            <div class="col-md-12 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>Any comments and questions?</h2>
+
+                                    <textarea name="comments" class="form-control" cols="30" rows="10"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-6 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>Preferred contact method <span>*</span></h2>
+
+                                    <div class="form-check my-2">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">
+                                            Phone
+                                        </label>
+                                    </div>
+                                    <div class="form-check my-2">
+                                        <input class="form-check-input" type="checkbox" checked>
+                                        <label class="form-check-label">
+                                            Email
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 my-2 my-md-3">
+                                <div class="form-group">
+                                    <h2>Share any relevant documents or images</h2>
+                                    <input type="file" name="file" class="form-control bg-transparent">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 mt-2 mt-md-3 mb-5">
+                                <button class="w-100 form-btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-md-5 py-4">
+        <div class="container-1">
+            <div class="container px-4 py-4 py-md-5 ">
+                <div class="row align-items-center">
+                    <div class="col-md-4 mr-auto justify-content-center justify-content-md-start my-2 my-md-auto">
+                        <div class="d-flex align-items-center justify-content-center align-content-center">
+                            <img class="navbar-brand img-fluid"
+                                src="./images/favicon.png" alt="">
+                            <h1 class="navbar-brand-h1 ms-2">Czech Virtual Agent</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center my-2 my-md-auto">
+                        <div class="d-flex m-auto align-items-center justify-content-center">
+                            <div class="icon m-2 rounded-circle">
+                                <a href="">
+                                    <i class="fa-brands icon-2 fa-instagram"></i>
+                                </a>
+                            </div>
+                            <div class="icon icon-facebook m-2 rounded-circle">
+                                <a href="">
+                                    <i class="fa-brands icon-2 fa-facebook-f">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-2 my-md-auto">
+                        <div class="d-flex justify-content-center justify-content-md-end align-items-center">
+                            <a class="text-black" href="#">Privacy Policy</a>
+                            <span class="px-3 pb-1"> -</span>
+                            <a class="text-black" href="#">Terms and Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h6 class="text-center m-auto mt-3">
+            © 2023 Czech Virtual Agent. All rights reserved.
+        </h6>
+    </footer>
+    
+</body>
+
+</html>
